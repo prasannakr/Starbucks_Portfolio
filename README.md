@@ -41,7 +41,15 @@ Scikit Learn <br/>
 Scipy
 
 ## **Results** <br/>
-Compare the Predicted versus actuals and check for the accuracy to find out if our optimization strategy was successful or not.
+Compare the Predicted versus actuals and check for the accuracy to find out if our optimization strategy was successful or not.<br/>
+Random Forest model had issues with underfit & hence were unable to fit the model.<br/>
+Since the data wasnt balanced, used Easy Ensemble Classifer for this use case which had better Mean ROC AUC statistic as compared to Random Forest Model.<br/>
+** Our Model output** <br/>
+Your irr with this strategy is 0.0179. Your nir with this strategy is 282.60.<br/>
+** Udacity Model output** <br/>
+We came up with a model with an irr of 0.0188 and an nir of 189.45 on the test set.
+
+Concluding, Our Model had significantly better NIR but slightly lower IRR.
 
 
 
